@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.linkstarter-logo-3 {
+    position: absolute;
+    width: 217px;
+    height: auto;
+    left: 50px;
+    top: 35px;
+}
+
+.update-profile-header {
+    position: absolute;
+    width: 547px;
+    height: 84px;
+    left: 510px;
+    top: 60px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.details-txt-3 {
+    position: absolute;
+    width: 351px;
+    height: 54px;
+    left: 510px;
+    top: 118px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A8A8A8;
+}
+
+.email-txt-container-3 {
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 510px;
+    top: 190px;
+    background: rgba(131, 56, 236, 0.25);
+    border-radius: 10px;
+}
+
+.important-info-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 16px;
+}
+
+.email-txt-3 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 60px;
+    top: 6px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.email-address-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 510px;
+    top: 290px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.password-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 510px;
+    top: 390px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.confirm-password {
+    box-sizing: border-box;
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 510px;
+    top: 490px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.update-btn {
+    position: absolute;
+    width: 547px;
+    height: 84px;
+    left: 510px;
+    top: 590px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+    background: rgba(255, 0, 110, 0.5);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.update-btn:hover {
+    cursor: pointer;
+}
+
+
+.cancel-txt {
+    position: absolute;
+    width: 547px;
+    height: 84px;
+    left: 740px;
+    top: 685px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.cancel-link {
+    color: #FF006E;
+    text-decoration: none;
+}

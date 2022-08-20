@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.linkstarter-logo {
+    position: absolute;
+    width: 217px;
+    height: auto;
+    left: 50px;
+    top: 35px;
+}
+
+.design-your-career-container {
+    position: absolute;
+    width: 433px;
+    height: 432px;
+    left: 120px;
+    top: 185px;
+    background: rgba(255, 0, 110, 0.5);
+    border-radius: 30px;
+}
+
+.computer-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -146px;
+    Left: 60px;
+}
+
+.design-header {
+    position: absolute;
+    width: 328.15px;
+    height: 54px;
+    left: 82px;
+    top: 110px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.design-txt {
+    position: absolute;
+    width: 351px;
+    height: auto;
+    left: 52px;
+    top: 206px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.design-btn {
+    position: absolute;
+    width: 363px;
+    height: 70px;
+    left: 36px;
+    top: 320px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.design-btn:hover {
+    cursor: pointer;
+}
+
+.account-question-txt {
+    position: absolute;
+    width: 355px;
+    height: 48px;
+    left: 1195px;
+    top: 25px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.signup-link {
+    color: #FF006E;
+    text-decoration: none;
+}
+
+.sign-in-header {
+    position: absolute;
+    width: 547px;
+    height: 84px;
+    left: 830px;
+    top: 90px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.details-txt {
+    position: absolute;
+    width: 351px;
+    height: 54px;
+    left: 830px;
+    top: 138px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A8A8A8;
+}
+
+.email-txt-container {
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 830px;
+    top: 200px;
+    background: rgba(131, 56, 236, 0.25);
+    border-radius: 10px;
+}
+
+.important-info {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 16px;
+}
+
+.email-txt {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 60px;
+    top: 6px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.email-address {
+    box-sizing: border-box;
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 830px;
+    top: 300px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.password {
+    box-sizing: border-box;
+    position: absolute;
+    width: 547px;
+    height: 67px;
+    left: 830px;
+    top: 400px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.forgot-password-txt {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 1215px;
+    top: 490px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.login-btn {
+    position: absolute;
+    width: 547px;
+    height: 84px;
+    left: 830px;
+    top: 540px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+    background: rgba(255, 0, 110, 0.5);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
