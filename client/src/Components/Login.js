@@ -1,10 +1,36 @@
-import React from 'react'
-import './Login.css';
+import React, { useRef, useState } from "react"
+import { useAuth } from "../contexts/AuthContext"
+import { Link, useNavigate } from "react-router-dom"
 import computer from '../images/computer.png'
 import linkstarter_logo from '../images/linkstarter_logo.png'
 import important_info from '../images/important_info.png'
+import './Login.css';
 
 export default function Login() {
+    const emailRef = useRef()
+    const passwordRef = useRef()
+    const { login } = useAuth()
+    const [error, setError] = useState('')
+    const [loading, setLoading] = useState(false)
+    const history = useNavigate()
+
+    async function handleSubmit(e) {
+        e.preventDefault()
+
+        try {
+            setError("")
+            setLoading(true)
+            await login(emailRef.current.value, passwordRef.current.value)
+            history("/")
+        }
+        catch {
+            setError("Failed to sign in")
+        }
+
+        setLoading(false)
+    }
+
+
     return (
         <div>
             <img className='linkstarter-logo' alt='linkstarter-logo' src={linkstarter_logo} />
@@ -18,9 +44,11 @@ export default function Login() {
                 </a>
             </div>
 
-            <p className='account-question-txt'>
-                Don't have an account? <a className='signup-link' href='/Login'>Get started</a>
-            </p>
+            <Link to="/signup">
+                <p className='account-question-txt'>
+                    Don't have an account? <a className='signup-link' href='/Login'>Get started</a>
+                </p>
+            </Link>
 
             <h2 className='sign-in-header'>Sign in to Linkstarter</h2>
             <p className='details-txt'>Enter your details below</p>
@@ -30,11 +58,13 @@ export default function Login() {
                 <p className='email-txt'>Email is case sensitive</p>
             </div>
 
-            <form>
-                <input type="text" className='email-address' placeholder='Email Address' />
-                <input type="password" className='password' placeholder='Password' />
-                <a href='/Login' className='forgot-password-txt'>Forgot Password?</a>
-                <input type="submit" className='login-btn' value="Login" />
+            <form onSubmit={handleSubmit}>
+                <input type="email" className='email-address' placeholder='Email Address' ref={emailRef} required />
+                <input type="password" className='password' placeholder='Password' ref={passwordRef} required />
+                <Link to="/forgot-password">
+                    <a className='forgot-password-txt'>Forgot Password?</a>
+                </Link>
+                <input disabled={loading} type="submit" className='login-btn' value="Login" />
             </form>
         </div>
     )
