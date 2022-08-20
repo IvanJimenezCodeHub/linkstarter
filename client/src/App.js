@@ -1,34 +1,35 @@
-import React, { useState, useEffect } from 'react'
-import ForgotPassword from './Components/ForgotPassword'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { AuthProvider } from '../src/contexts/AuthContext';
+import PrivateRoute from './Components/PrivateRoute';
 import Login from './Components/Login'
 import Signup from './Components/Signup'
 import UpdateProfile from './Components/UpdateProfile'
+import ForgotPassword from './Components/ForgotPassword'
+import Dashboard from './Components/Dashboard';
 
 export default function App() {
-  const [backendData, setBackendData] = useState([{}])
-
-  useEffect(() => {
-    fetch("/api").then(
-      response => response.json()
-    ).then(
-      data => {
-        setBackendData(data)
-      }
-    )
-  }, [])
-
   return (
     <div>
-      <UpdateProfile />
-      {/*
-      {(typeof backendData.users === 'undefined') ? (
-        <p>Loading...</p>
-      ) : (
-        backendData.users.map((user, i) => (
-          <p key={i}>{user}</p>
-        ))
-      )}
-        */}
+      <Router>
+        <AuthProvider>
+          <Routes>
+            <Route exact path="/" element={
+              <PrivateRoute>
+                <Dashboard />
+              </PrivateRoute>
+            } />
+            <Route path="/update-profile" element={
+              <PrivateRoute>
+                <UpdateProfile />
+              </PrivateRoute>
+            } />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+          </Routes>
+        </AuthProvider>
+      </Router>
     </div>
   )
 }

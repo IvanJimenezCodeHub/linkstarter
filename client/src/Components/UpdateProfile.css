@@ -93,7 +93,7 @@
     border-radius: 10px;
 }
 
-.confirm-password {
+.confirm-password-1 {
     box-sizing: border-box;
     position: absolute;
     width: 547px;
@@ -139,9 +139,8 @@
     font-weight: bold;
     font-size: 25px;
     line-height: 33px;
-}
+} 
 
 .cancel-link {
     color: #FF006E;
-    text-decoration: none;
 }
