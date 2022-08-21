@@ -7,6 +7,9 @@ import profile_pic from '../images/profile_pic.png'
 import scale_img from '../images/scale_img.png'
 import camera from '../images/camera.png'
 import people from '../images/people.png'
+import FullCalendar from '@fullcalendar/react'
+import dayGridPlugin from '@fullcalendar/daygrid'
+import interactionPlugin from "@fullcalendar/interaction"
 
 export default function Dashboard() {
     const [error, setError] = useState("")
@@ -21,6 +24,12 @@ export default function Dashboard() {
             history("/login")
         } catch {
             setError("Failed to log out")
+        }
+    }
+
+    const handleDateClick = (e) => {
+        if(e.jsEvent.altKey){
+            console.log(e);
         }
     }
 
@@ -64,6 +73,14 @@ export default function Dashboard() {
                 <Link to="/video-call" target="_blank">
                     <input type="submit" className="join-call-btn" value="Join Call" />
                 </Link>
+            </div>
+
+            <div className="calendar-container">
+                <FullCalendar
+                    height={"100%"}
+                    plugins={[dayGridPlugin, interactionPlugin]}
+                    dateClick={handleDateClick}
+                />
             </div>
         </div>
     )
