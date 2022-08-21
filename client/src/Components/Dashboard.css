@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.linkstarter-logo-4 {
+    position: absolute;
+    width: 217px;
+    height: auto;
+    left: 50px;
+    top: 35px;
+}
+
+.profile-pic {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    left: 1430px;
+    top: 22px;
+}
+
+.user-info-container {
+    position: absolute;
+    width: 260px;
+    height: 238px;
+    left: 50px;
+    top: 106px;
+    background: rgba(203, 203, 203, 0.5);
+    border-radius: 20px;
+}
+
+.profile-pic-1 {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    left: 20px;
+    top: 15px;
+}
+
+.linkstarter-txt {
+    position: absolute;
+    width: 160px;
+    height: 54px;
+    left: 95px;
+    top: 6px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A8A8A8;
+}
+
+.update-profile-btn {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 82px;
+    top: 207px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    background: rgba(255, 0, 110, 0.5);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.update-profile-btn:hover {
+    cursor: pointer;
+}
+
+.logout-btn {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 82px;
+    top: 273px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    background: rgba(255, 0, 110, 0.5);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+}
+
+.general-header {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 60px;
+    top: 365px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.app-container {
+    position: absolute;
+    width: 260px;
+    height: 65px;
+    left: 54px;
+    top: 420px;
+    background: rgba(131, 56, 236, 0.25);
+    border-radius: 20px;
+}
+
+.scale-pic {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    left: 25px;
+    top: 14px;
+}
+
+.app-header {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    left: 90px;
+    top: 5px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E1E1E;
+}
+
+.feedback-header {
+    position: absolute;
+    width: 185px;
+    height: auto;
+    left: 95px;
+    top: 490px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.bug-message {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 71px;
+    top: 550px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #A8A8A8;
+}
+
+.feedback-btn {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 54px;
+    top: 630px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    background: #8338EC;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.feedback-btn:hover {
+    cursor: pointer;
+}
+
+.video-call-container {
+    position: absolute;
+    width: 980px;
+    height: 135px;
+    left: 401px;
+    top: 106px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.video-call-header {
+    position: absolute;
+    width: 215px;
+    height: auto;
+    left: 25px;
+    top: 5px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 980px;
+    height: auto;
+    top: 60px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.camera {
+    position: absolute;
+    width: 45px;
+    height: auto;
+    left: 18px;
+    top: 73px;
+}
+
+.people {
+    position: absolute;
+    width: 45px;
+    height: auto;
+    left: 80px;
+    top: 73px;
+}
+
+.team-room-txt {
+    position: absolute;
+    width: 225px;
+    height: auto;
+    left: 140px;
+    top: 68px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #737373;
+}
+
+.join-call-btn {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 780px;
+    top: 77px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #028D46;
+    background: rgba(12, 206, 107, 0.5);
+    border-radius: 30px;
+}
+
+.join-call-btn:hover {
+    cursor: pointer;
+}

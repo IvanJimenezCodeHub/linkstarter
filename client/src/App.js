@@ -6,7 +6,8 @@ import Login from './Components/Login'
 import Signup from './Components/Signup'
 import UpdateProfile from './Components/UpdateProfile'
 import ForgotPassword from './Components/ForgotPassword'
-import Dashboard from './Components/Dashboard';
+import Dashboard from './Components/Dashboard'
+import VideoCall from './Components/VideoCall';
 
 export default function App() {
   return (
@@ -22,6 +23,11 @@ export default function App() {
             <Route path="/update-profile" element={
               <PrivateRoute>
                 <UpdateProfile />
+              </PrivateRoute>
+            } />
+            <Route path="/video-call" element={
+              <PrivateRoute>
+                <VideoCall />
               </PrivateRoute>
             } />
             <Route path="/login" element={<Login />} />
