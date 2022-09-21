@@ -2,7 +2,7 @@
 
 ## Members:
   
-  Ivan Jimenez: https://github.com/IvanJimenezCodeHub
+  Ivan Jimenez: https://github.com/ivanJ0
   
   Sagar Rathod: https://github.com/sagarbrathod1
   
